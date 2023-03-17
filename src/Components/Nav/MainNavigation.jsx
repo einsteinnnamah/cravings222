@@ -4,7 +4,7 @@ import CartButton from '../Carts/CartButton';
 import classes from './MainNavigation.module.css';
 import menuIcon from '../../icons/icon-hamburger.svg';
 const MainNavigation = () => {
-  const [showMobileNav, setShowMobileNav] = useState(false);
+  const [setShowMobileNav] = useState(false);
   const mobileNavHandler = () => {
     console.log('hey');
     setShowMobileNav(true);
