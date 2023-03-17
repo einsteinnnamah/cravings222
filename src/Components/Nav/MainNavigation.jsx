@@ -7,7 +7,7 @@ const MainNavigation = () => {
   const [setShowMobileNav] = useState(false);
   const mobileNavHandler = () => {
     console.log('hey');
-    setShowMobileNav(true);
+    setShowMobileNav(true)
   };
 
   return (
